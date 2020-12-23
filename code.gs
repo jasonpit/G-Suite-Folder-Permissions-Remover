@@ -1,6 +1,6 @@
 // Intended to remove file sharing and link sharing from all folders and files within specifide folder ID
 // This script will also function on team drives with the id..
-
+// Jason Pittman 2016
 function removeSharePermissions() {
   var files = DriveApp.getFolderById('PUT-ID-HERE').getFiles();
   while (files.hasNext()) {
